@@ -67,3 +67,34 @@ a {
     border-radius: 5px;
     background-color: #D52027;
 }
+
+/* Стили для content */
+
+.about-robo-school {
+    gap: 80px;
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Jost';
+    margin-top: 100px;
+    margin-left: 380px;
+}
+
+.about-robo-school-text {
+    font-size: 30px;
+}
+
+.number-content {
+    font-weight: 600;
+    font-size: 70px;
+    color: #D52027;
+}
+
+.content-info {
+    font-size: 18px;
+}
+
+.robo-school-info {
+    gap: 120px;
+    display: flex;
+}
