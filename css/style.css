@@ -1,0 +1,69 @@
+.header {
+    background-color: #141024;
+    height: fit-content;
+    width: 100%;
+}
+
+/* Стили для header-elements */
+
+.header-elements {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+
+    font-family: 'Jost';
+    padding: 30px 100px;
+    font-size: 30px;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.nav {
+    gap: 40px;
+    display: flex;
+
+    font-size: 20px;
+}
+
+.logo {
+    font-weight: 700;
+}
+
+/* Стили для bottom-header */
+
+.bottom-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    font-family: 'Jost';
+    color: white;
+}
+
+.text-bottom-header {
+    gap: 30px;
+    order: -1;
+    display: flex;
+    flex-direction: column;
+
+    font-weight: 400;
+}
+
+.logo-bottom-header {
+    font-weight: 600;
+    font-size: 70px;
+}
+
+.text-bottom-logo {
+    font-size: 20px;
+}
+
+.button-bottom-text {
+    padding: 25px 54px;
+    width: fit-content;
+    border-radius: 5px;
+    background-color: #D52027;
+}
